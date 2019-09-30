@@ -13,7 +13,7 @@ Unit 5:重複執行的作業
 Ch16-19
 ```
 # range的技術
-###range的技術(1)
+### range的技術(1)
 ```
 list1=range(6)
 list1
