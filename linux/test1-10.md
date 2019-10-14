@@ -6,6 +6,8 @@ print("abc"+"def")
 word = "art"
 print(word.replace("r", "n"))
 
+root@kali:~# gedit test.py
+root@kali:~# python3 test.py 
 hello!
 89.4
 abcdef
