@@ -1,0 +1,30 @@
+# ifconfic
+```
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.20.164.233  netmask 255.255.255.0  broadcast 172.20.164.255
+        inet6 fe80::a00:27ff:fee3:838  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:e3:08:38  txqueuelen 1000  (Ethernet)
+        RX packets 9459  bytes 644578 (629.4 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 27  bytes 2738 (2.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 20  bytes 1116 (1.0 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 20  bytes 1116 (1.0 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+```
+## 問題1
+```
+IP位址:
+172.20.164.233
+```
+## 問題2
+```
+遮罩:
+255.255.255.0
+```
